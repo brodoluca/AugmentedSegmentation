@@ -1,0 +1,25 @@
+IMAGE_HEIGHT = 512
+IMAGE_WIDTH = 64
+
+FOR_REFLECTANCE = 4
+FOR_DISTANCE = 5
+
+N_CLASSES = 4
+FOCAL_LOSS  =True
+
+BATCH_SIZE= 2
+LR = 1e-4
+
+EPOCH = 1
+
+CHANNELS = "xyzdr"
+VAL_ITER = 1
+N_ITERS = 5000
+
+NUM_WORKERS = 20
+DATASET_PATH = "data/pnl_train.tfrecord"
+VAL_PATH = "data/pnl_val.tfrecord"
+
+GPU = 1
+
+ACC_FREQU = 20
