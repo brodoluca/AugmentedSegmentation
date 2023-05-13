@@ -184,9 +184,11 @@ int main()
              }
          }
 
-        //show and save the images. 
-        cv::imshow("Lidar Distance", lidarImage);
-        cv::imshow("Lidar Reflectance", reflectanceImage);
+        //show and save the images.
+        #ifndef LEARN
+            cv::imshow("Lidar Distance", lidarImage);
+            cv::imshow("Lidar Reflectance", reflectanceImage);
+        #endif // !LEARN
         #ifdef LEARN
                 fs << "test" << StorageImage;
         #endif // LEARN
