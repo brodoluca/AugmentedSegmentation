@@ -1,0 +1,859 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1239,
+                  "startColumn": 10,
+                  "endLine": 1239,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::MatStep::{ctor}",
+                  "decoratedName": "??0MatStep@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1245,
+                  "startColumn": 10,
+                  "endLine": 1245,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::MatStep::{ctor}",
+                  "decoratedName": "??0MatStep@cv@@QEAA@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1874,
+                  "startColumn": 12,
+                  "endLine": 1874,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::SparseMat::elemSize",
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1874,
+                  "startColumn": 12,
+                  "endLine": 1874,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::SparseMat::elemSize",
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 61,
+                  "endLine": 568,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::getElemSize",
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 61,
+                  "endLine": 568,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::getElemSize",
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5,
+                  "endLine": 578,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<unsigned char,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@E$02$00@cv@@QEAA@EEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<unsigned char,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@E$02$00@cv@@QEAA@EEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5,
+                  "endLine": 570,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5,
+                  "endLine": 570,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/opencv/build/include/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "68f9f3826e1997604597f7c1014225842673281a3eb54ae3b5bc5c1e66fe3cd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/opencv/build/include/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a981134ae9e81123a00bccd54ed2d5017c9691430be71a736e29214c3e2ea2eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/opencv/build/include/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8df934f0dc811d9056b522fc4540a5cfed3a2e20d9db50b088cfde94bb6f9701"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/z-3li/onedrive/documents/lidarcpp/lidarcpp.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "616a4460d97f26db2cacb1b7ac1b21ecab0f01bbd58e84aee6b2c9e92cbbbc0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/core.hpp"
+          },
+          "hashes": {
+            "sha-256": "c94c793dc0b6f1cc9bc9819f92e11a5c21a15d5739d6489faac7b5f6e6ebef4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core.hpp"
+          },
+          "hashes": {
+            "sha-256": "33798d7a2ac0ce57afe95cc036e72ab59dc50ff7c0f61854a33a3b9105b11a74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "sha-256": "f82b9c1da589fbce8a6ddcdb063a1912df8c5cafafd800e7cb1ed87874c665ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "f261ac8e7a4b0f949ef396af0f27166ada62d42a69bd26fc11ca56f753a39aa6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "sha-256": "d0d876a5d4c3082ad71541aa6b366ef4dd5efe2d7b9d109d517d6928e181b83e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "sha-256": "e4eeec54b469b0a72540005ac05f5f9e0b34fe4b63090cf96e3623f16f84b943"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/base.hpp"
+          },
+          "hashes": {
+            "sha-256": "5a3c5081f4f83132da06064fea5d81e648d0b251eafc2d4016c83f7f59559867"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "sha-256": "f3a63585c90a75bd166460e03ff28ccff73f38a52b04eb8a6f72d02d3b971aa5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "sha-256": "9ba9df62de1fb7719cb81291dbd8448efa8c7d92a75b0c4873af5268beb64b1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "hashes": {
+            "sha-256": "109f1e19060f7ec1e573953aa40f2592cfd00b6b96f7816cbb2f9b08d0b2c0ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "ce0436e0cc3e236e317b03a9859ed31f10d56979391252c754f75dfbeaa4ebd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "6a96833b8a4241bd28962bf3c300bddd7280936d3020d328de63cfd3228728f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "sha-256": "0cd7925226201e4652c2a10942d2c93b26dcb354e5c479fead547f3563d8523f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "sha-256": "2ee21d68861633bfa835d21e40bc381f63f3e05f3467bff8f4be2931436746ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "sha-256": "80735771ea6ca685243457e0a6b6dc7224795c7568ff8715e35a394f59f8bbc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "sha-256": "da975ea926979411459ebc18e1f939967aba23e20e0a6cc04c6f2835c6556767"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "912438f63e44bf9777a960be69d582757f04b956ffdf4002400091d55c3fc246"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/mat.hpp"
+          },
+          "hashes": {
+            "sha-256": "1dddfb4808e93864e4f67916281efefeef519270576b18ad9b0c98bb8a86fc26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b81257f13fcc5011f489b6cab29f0a8b4496ab6158b8cf5c254bbc5ea55ce7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "sha-256": "507496faf3d066a75f00de4acae180c51c1847aa3d2c2f94acb41bb25c1d6af0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/operations.hpp"
+          },
+          "hashes": {
+            "sha-256": "50cc469d423d8cf4eb7a00ff203713023e1a7027cf429899abb445d28830dead"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "340a651e83315e23a5af89caf95affae0b5cf19691a25eef3cbb43e9d01a9753"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "sha-256": "8c5b36faf0b05d1371b426ae075bcd4ae42e65a2c401aa4924fa442a77b525d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "sha-256": "21a2d7b931f406636958ec299cdd076110e0bf51c5a09004bd2ccd84e9993e3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/highgui/highgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "0349b924b5f79fda9e6f3df33883f08429b55f65b537f7f62d61efcbe31e3f37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "d5132c66ba0259026166fbe90b4e7c76f14dad5f450c51d7c8597802e71a75c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "sha-256": "4ec2ab80626f038905441ef0a2578b9797ff77fafda4696a4c64b17f8dd6ff80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "sha-256": "c0018bee56b848ad00cb95d2bad69a1fbfa70e12910cd7322d7304534c056b46"
+          }
+        }
+      ]
+    }
+  ]
+}
