@@ -1,1 +1,2 @@
 C:\Users\z-3li\OneDrive\Documents\LidarCpp\x64\Debug\LidarCpp.exe
+C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\x64\Debug\LidarCpp.exe

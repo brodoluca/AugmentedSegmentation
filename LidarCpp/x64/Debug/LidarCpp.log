@@ -1,28 +1,21 @@
 ﻿  LidarCpp.cpp
-C:\Users\z-3li\OneDrive\Documents\LidarCpp\LidarCpp.cpp(75,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\z-3li\OneDrive\Documents\LidarCpp\LidarCpp.cpp(176,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\z-3li\OneDrive\Documents\LidarCpp\LidarCpp.cpp(179,102): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\helper.hpp(80,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\LidarCpp.cpp(97,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\LidarCpp.cpp(100,102): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=uchar
           ]
-C:\Users\z-3li\OneDrive\Documents\LidarCpp\LidarCpp.cpp(179,90): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\LidarCpp.cpp(100,90): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=uchar
           ]
-C:\Users\z-3li\OneDrive\Documents\LidarCpp\LidarCpp.cpp(179,77): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\LidarCpp.cpp(100,77): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
           with
           [
               _Tp=uchar
           ]
-C:\opencv\build\include\opencv2\core\mat.inl.hpp(1239): warning C26495: Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6).
-C:\opencv\build\include\opencv2\core\mat.inl.hpp(1245): warning C26495: Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6).
-C:\opencv\build\include\opencv2\core\mat.inl.hpp(1874): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
-C:\opencv\build\include\opencv2\core\utility.hpp(568): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
-C:\opencv\build\include\opencv2\core\matx.hpp(578): warning C6294: Ill-defined for-loop.  Loop body not executed.
-C:\opencv\build\include\opencv2\core\matx.hpp(578): warning C6201: Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'.
-C:\opencv\build\include\opencv2\core\matx.hpp(570): warning C6294: Ill-defined for-loop.  Loop body not executed.
-C:\opencv\build\include\opencv2\core\matx.hpp(570): warning C6201: Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'.
-C:\opencv\build\include\opencv2\core\matx.hpp(586): warning C6294: Ill-defined for-loop.  Loop body not executed.
-C:\opencv\build\include\opencv2\core\matx.hpp(586): warning C6201: Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'.
+  combine.cpp
+  Generating Code...
+  LidarCpp.vcxproj -> C:\Users\z-3li\OneDrive\Documents\LidarCameraSegmentation\LidarCpp\x64\Debug\LidarCpp.exe

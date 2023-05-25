@@ -133,8 +133,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="combine.cpp" />
     <ClCompile Include="LidarCpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helper.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
