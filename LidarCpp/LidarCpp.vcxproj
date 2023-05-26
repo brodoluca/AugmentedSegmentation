@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="combine.cpp" />
+    <ClCompile Include="Dimmer.cpp" />
     <ClCompile Include="LidarCpp.cpp" />
   </ItemGroup>
   <ItemGroup>
